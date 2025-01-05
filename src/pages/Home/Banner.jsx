@@ -21,7 +21,7 @@ const Banner = () => {
         <Link to={"https://www.facebook.com/rabeya.rumi.285936/?viewas=&should_open_composer=false&show_switched_toast=false&show_invite_to_follow=false&show_switched_tooltip=false&show_podcast_settings=false&show_community_review_changes=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"}><FaSquareGithub size={"30"}/></Link>
         <Link to={"https://www.facebook.com/rabeya.rumi.285936/?viewas=&should_open_composer=false&show_switched_toast=false&show_invite_to_follow=false&show_switched_tooltip=false&show_podcast_settings=false&show_community_review_changes=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"}><FaLinkedin size={"30"}/></Link>
       </div>
-      <button className="btn btn-primary">Download Resume</button>
+      <a href="https://docs.google.com/document/d/1iyG9Ce7-W0zmcp_6V9Sues5Xp8Ib9je0HCMn3ake3UY/edit?tab=t.0" target="_blank" className="btn btn-primary">Download Resume</a>
     </div>
   </div>
 </div>

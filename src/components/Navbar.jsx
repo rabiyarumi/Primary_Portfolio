@@ -6,8 +6,8 @@ const Navbar = () => {
   const links = (
     <>
       <NavLink to={"/"}>Home</NavLink>
-      <NavLink to={"/skills"}>skills</NavLink>
-      <NavLink to={"/my_jurny"}>Journey</NavLink>
+      <NavLink to={"/"}>skills</NavLink>
+      <NavLink to={"/"}>Projects</NavLink>
     </>
   );
   return (
@@ -43,7 +43,7 @@ const Navbar = () => {
 
       {/* nav-end */}
       <div className="navbar-end">
-        <a className="btn">Resume</a>
+        <a href="https://docs.google.com/document/d/1iyG9Ce7-W0zmcp_6V9Sues5Xp8Ib9je0HCMn3ake3UY/edit?tab=t.0" target="_blank" className="btn btn-primary">Resume</a>
       </div>
     </div>
   );
