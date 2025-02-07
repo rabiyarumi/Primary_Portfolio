@@ -30,13 +30,8 @@ const Projects = () => {
                     <h2 className="card-title">{project.project_name}</h2>
                     <p>{project.project_type}</p>
                     <div className="card-actions justify-end">
-                      <button className="btn btn-primary">Details</button>
-                      <button className="btn btn-primary">
-                        <a href={project.live_link} target="_blank">Live</a>
-                      </button>
-                      <button className="btn btn-primary">
-                        <a href={project.github_link}  target="_blank">Code</a>
-                        </button>
+                      <Link to={`/project/${project.id}`} className="btn btn-primary">Details</Link>
+                      
                     </div>
                   </div>
                 </div>)
