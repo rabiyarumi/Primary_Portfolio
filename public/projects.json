@@ -2,11 +2,12 @@
     {
         "id": 1,
       "project_name": "GradMate",
+      "project_type": "Academic Collaboration",
       "demo_img": "https://i.ibb.co.com/yVVnKp8/grademate-web.png",
       "description": "A platform where a group of friends can upload assignments, download them for submission, and mark submitted assignments. Implemented JWT authentication for secure user sessions.",
       "main_technologies": ["React", "CSS", "Tailwind", "Daisy UI", "Node.js", "Express.js", "Firebase", "MongoDB"],
       "live_link": "https://grademate-8ebe6.web.app/",
-      "github_link": "https://github.com/programming-hero-web-course2/b10a11-client-side-rabiyarumi",
+      "github_link": "https://github.com/rabiyarumi/Grade-Mate",
       "details": {
         "challenges": "Implementing JWT token-based authentication was the most challenging part, ensuring secure session management and protected routes.",
         "improvements": "The UI could be enhanced for better user experience, and additional features like notifications for assignment deadlines could be added."
@@ -15,11 +16,12 @@
     {
         "id": 2,
       "project_name": "CrowdCube",
+      "project_type": "A crowd-funding platform",
       "demo_img": "https://i.ibb.co.com/fSCtMt6/crowd-Cube-web.png",
       "description": "A crowd-funding platform where users can create campaigns, contribute to campaigns, and track funding progress in real-time.",
       "main_technologies": ["React", "CSS", "Tailwind", "Daisy UI", "Node.js", "Express.js", "Firebase", "MongoDB"],
       "live_link": "https://crowdcube-5d163.web.app/",
-      "github_link": "https://github.com/programming-hero-web-course2/b10-a10-client-side-rabiyarumi?tab=readme-ov-file",
+      "github_link": "https://github.com/rabiyarumi/CrowdCube",
       "details": {
         "challenges": "Handling real-time updates for funding progress and ensuring data consistency across different user sessions were major hurdles.",
         "improvements": "Improved campaign analytics and the addition of social media sharing features are planned for the next version."
@@ -28,11 +30,12 @@
     {
         "id": 3,
       "project_name": "Warm Hearts",
+      "project_type": "A winter clothing donation platform",
       "demo_img": "https://i.ibb.co.com/F5PBPFN/warm-heart-web.png",
       "description": "A winter clothing donation platform where users can register as donors or recipients, track donation history, and manage events.",
       "main_technologies": ["React", "CSS", "Tailwind", "Daisy UI", "Node.js", "Express.js", "Firebase", "MongoDB"],
       "live_link": "https://assignment-9-fc0e9.web.app/",
-      "github_link": "https://github.com/programming-hero-web-course2/b10-a10-client-side-rabiyarumi?tab=readme-ov-file",
+      "github_link": "https://github.com/rabiyarumi/Warm-Hearts",
       "details": {
         "challenges": "Coordinating the registration process for both donors and recipients while maintaining a user-friendly interface was quite complex.",
         "improvements": "Future plans include adding a notification system to remind users of upcoming donation events and integrating an AI-based matching system for efficient distribution."

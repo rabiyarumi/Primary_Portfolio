@@ -20,20 +20,26 @@ const Projects = () => {
         <h2 className="text-4xl font-bold text-center  mb-8">My Projects</h2>
         <div className='grid grid-cols-1  md:grid-cols-3 gap-4'>
             {
-                projects.map(project => <div key={project.id} className="card text-white  image-full  shadow-xl">
-                    <figure>
-                      <img
-                        src={project.demo_img}
-                        alt="img" />
-                    </figure>
-                    <div className="card-body ">
-                      <h2 className="card-title font-bold text-primary">{project.project_name}</h2>
-                      <p>If a dog chews shoes whose shoes does he choose?</p>
-                      <div className="card-actions justify-start">
-                        <Link to={`/project/${project.id}`} className="btn btn-primary">View Details</Link>
-                      </div>
+                projects.map(project => <div key={project.id} className="card card-compact bg-base-100 max-w-96 shadow-xl">
+                  <figure>
+                    <img
+                      src={project.demo_img}
+                      alt="Shoes" />
+                  </figure>
+                  <div className="card-body">
+                    <h2 className="card-title">{project.project_name}</h2>
+                    <p>{project.project_type}</p>
+                    <div className="card-actions justify-end">
+                      <button className="btn btn-primary">Details</button>
+                      <button className="btn btn-primary">
+                        <a href={project.live_link} target="_blank">Live</a>
+                      </button>
+                      <button className="btn btn-primary">
+                        <a href={project.github_link}  target="_blank">Code</a>
+                        </button>
                     </div>
-                  </div>)
+                  </div>
+                </div>)
             }
         </div>
        
