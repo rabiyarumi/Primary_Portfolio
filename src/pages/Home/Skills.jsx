@@ -1,5 +1,5 @@
-import React from 'react';
 import Marquee from 'react-fast-marquee';
+import { Element } from 'react-scroll';
 
 const Skills = () => {
 
@@ -16,7 +16,8 @@ const Skills = () => {
       ]; 
 
     return (
-        <section className=" py-12">
+       <Element name="skills">
+         <section className=" py-12">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold  mb-8">My Skills</h2>
 
@@ -41,6 +42,7 @@ const Skills = () => {
        
       </div>
     </section>
+       </Element>
     );
 };
 

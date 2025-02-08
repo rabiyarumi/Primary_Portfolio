@@ -1,17 +1,20 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import pic from "../assets/portfolio_pic2.0.jpg"
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const links = (
     <>
-      <NavLink to={"/"}>Home</NavLink>
-      <NavLink to={"/"}>skills</NavLink>
-      <NavLink to={"/"}>Projects</NavLink>
+      <Link to={"home"} smooth={true} duration={500} className="text-base cursor-pointer" >Home</Link>
+      <Link to={"about"} smooth={true} duration={500} className="text-base cursor-pointer" >About</Link>
+      <Link to={"skills"} smooth={true} duration={500} className="text-base cursor-pointer" >skills</Link>
+      <Link to={"projects"} smooth={true} duration={500} className="text-base cursor-pointer" >Projects</Link>
+      <Link to={"contact"} smooth={true} duration={500} className="text-base cursor-pointer" >Contact</Link>
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar  sticky top-0 bg-opacity-70 z-50 bg-primary">
       {/* nav-start */}
       <div className="navbar-start">
         <div className="dropdown ">
@@ -29,7 +32,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow gap-3 md:hidden"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow gap-3 md:hidden "
           >
             {links}
           </ul>

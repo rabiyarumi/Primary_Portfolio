@@ -1,8 +1,10 @@
+import { Element } from "react-scroll";
 import image from "../../assets/portfolio_pic_bg_removed.png"
 
 const AboutMe = () => {
   return (
-    <section className="py-12 px-6 sm:px-12 lg:px-24 ">
+    <Element name="about">
+      <section className="py-12 px-6 sm:px-12 lg:px-24 ">
       <h2 className="text-4xl font-bold  mb-10 text-center">About Me</h2>
       <div className="md:flex gap-10">
       <div className="md:w-1/2">
@@ -30,6 +32,7 @@ const AboutMe = () => {
       </div>
       </div>
     </section>
+    </Element>
   );
 };
 
