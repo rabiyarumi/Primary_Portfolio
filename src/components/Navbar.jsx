@@ -1,18 +1,19 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
 import pic from "../assets/portfolio_pic2.0.jpg"
 import { Link } from "react-scroll";
+
 
 const Navbar = () => {
   const links = (
     <>
-      <Link to={"home"} smooth={true} duration={500} className="text-base cursor-pointer" >Home</Link>
-      <Link to={"about"} smooth={true} duration={500} className="text-base cursor-pointer" >About</Link>
-      <Link to={"skills"} smooth={true} duration={500} className="text-base cursor-pointer" >skills</Link>
-      <Link to={"projects"} smooth={true} duration={500} className="text-base cursor-pointer" >Projects</Link>
-      <Link to={"contact"} smooth={true} duration={500} className="text-base cursor-pointer" >Contact</Link>
+      <Link to={"home"} smooth={true} duration={500} className="text-base cursor-pointer  px-1" spy={true} activeClass="active">Home</Link>
+      <Link to={"about"} smooth={true} duration={500} className="text-base cursor-pointer px-1" spy={true} activeClass="active" >About</Link>
+      <Link to={"skills"} smooth={true} duration={500} className="text-base cursor-pointer px-1" spy={true} activeClass="active">Skills</Link>
+      <Link to={"projects"} smooth={true} duration={500} className="text-base cursor-pointer px-1" spy={true} activeClass="active">Projects</Link>
+      <Link to={"contact"} smooth={true} duration={500} className="text-base cursor-pointer px-1" spy={true} activeClass="active">Contact</Link>
     </>
   );
+
+  
   return (
     <div className="navbar  sticky top-0 bg-opacity-70 z-50 bg-primary">
       {/* nav-start */}

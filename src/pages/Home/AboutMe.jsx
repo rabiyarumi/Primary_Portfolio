@@ -4,7 +4,7 @@ import image from "../../assets/portfolio_pic_bg_removed.png"
 const AboutMe = () => {
   return (
     <Element name="about">
-      <section className="py-12 px-6 sm:px-12 lg:px-24 ">
+      <section className="py-12 px-6 sm:px-12 lg:px-2  w-[90%] lg:w-full mx-auto">
       <h2 className="text-4xl font-bold  mb-10 text-center">About Me</h2>
       <div className="md:flex gap-10">
       <div className="md:w-1/2">

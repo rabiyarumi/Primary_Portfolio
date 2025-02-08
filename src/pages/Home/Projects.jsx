@@ -17,7 +17,7 @@ const Projects = () => {
 
     return (
        <Element name='projects'>
-         <section className=" py-12">
+         <section id='projects' className=" py-12 px-2 w-[90%] lg:w-full mx-auto">
      
      <h2 className="text-4xl font-bold text-center  mb-8">My Projects</h2>
      <div className='grid grid-cols-1  md:grid-cols-3 gap-4'>

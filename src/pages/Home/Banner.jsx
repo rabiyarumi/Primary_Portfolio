@@ -13,7 +13,7 @@ import { Element } from "react-scroll";
 const Banner = () => {
   return (
    <Element name="home">
-     <div className=" my-10 px-16">
+     <div className=" my-10 px-2 w-[90%] lg:w-full mx-auto">
       
       <div className="flex flex-col   gap-2">
         <p className="pl-1">Hey! I am</p>

@@ -26,7 +26,7 @@ const SendEmail = () => {
    
 <Element name="contact">
   
-<div className="max-w-3xl mx-auto p-6 shadow-lg rounded-lg ">
+<section id="contact" className="max-w-3xl mx-auto p-6 shadow-lg rounded-lg ">
       <h1 className="text-3xl font-bold text-center mb-6">Get in Touch</h1>
       <p className="text-lg text-center mb-4">
         Have any questions or Feedback? Feel free to reach out!
@@ -69,7 +69,7 @@ const SendEmail = () => {
     </div>
       </div>
       
-    </div>
+    </section>
 </Element>
 
     
