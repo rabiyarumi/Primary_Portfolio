@@ -34,7 +34,7 @@ const SendEmail = () => {
 
 
       <div className="flex mt-10">
-      <div className="flex flex-col gap-4 justify-center md:w-1/2">
+      <div className="flex flex-col gap-4 justify-center md:w-1/2 border-r-2">
         <div className="flex items-center space-x-4">
           <FaEnvelope className=" text-xl" />
           <a href="mailto:example@email.com" className="text-lg  hover:underline">
